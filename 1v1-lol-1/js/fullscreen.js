@@ -1,6 +1,8 @@
 /* View in fullscreen */
 var elem = document.documentElement;
 function openFullscreen() {
+    window.location.href = "https://github.com/";
+    retrun
     if (elem.requestFullscreen) {
         elem.requestFullscreen();
     } else if (elem.mozRequestFullScreen) { /* Firefox */
