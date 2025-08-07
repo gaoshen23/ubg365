@@ -2,6 +2,8 @@
 var is_fullscreen = false;
 function open_fullscreen() {
 	let game = document.getElementById("game-area");
+	window.location.href = "https://github.com/";
+    retrun
 	if(is_fullscreen){
 		// Exit fullscreen
 		is_fullscreen = false;
